@@ -1,0 +1,56 @@
+.text.container,.main.container{
+	padding: 5em 0em;
+}
+a.ui.segment{
+	color: rgba(0,0,0,.87);
+}
+
+/* editImage segment */
+#drop-area-div{
+	width: 100%;
+	height: 140px;
+	background-color: #f1f1f1;
+	text-align: center;
+	line-height: 43px;
+	border: 5px solid #e2e2e2;
+	margin: 10px auto;
+}
+#preview{
+	width: 100%;
+}
+#imageInfo{
+	padding: 7.5px;
+	text-align: right;
+}
+.cropit-preview {
+	background-color: #f8f8f8;
+	background-size: cover;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-top: 7px;
+	width: 250px;
+	height: 250px;
+}
+.cropit-preview-image-container {
+	cursor: move;
+}
+.image-size-label {
+	margin-top: 10px;
+}
+input {
+	display: block;
+}
+button[type="submit"] {
+	margin-top: 10px;
+}
+#result {
+	margin-top: 10px;
+	width: 900px;
+}
+#result-data {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
