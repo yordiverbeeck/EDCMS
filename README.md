@@ -4,7 +4,7 @@ An easy CMS for when you just want a simple website to be editable by customers.
 
 EDCMS requires (almost) no knowledge of PHP. 
 
-##Getting started
+## Getting started
 To get started: 
 
 1. Put all files of the 'edcms' folder on server.
@@ -20,3 +20,4 @@ To get started:
 <?php echo getText('nameOfField'); ?>
 ```
 6. In the config.php file, change 'SCANDB' to true and run your pages to import non-existing fields into the database. Then change 'SCANDB' back to false.
+7. You should be able to login using admin : admin
