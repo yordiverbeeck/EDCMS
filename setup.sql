@@ -65,6 +65,9 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
+INSERT INTO `users` (`userName`, `userPass`, `userEmail`, `userFirstName`, `userLastName`, `userActive`, `userAdmin`)
+VALUES
+  ('admin', 'admin', 'hello@admin.net', '', '', 1, 1);
 
 
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
